@@ -81,6 +81,16 @@ class ViewController: UIViewController {
         processOperation (currentOperation)
     }
     
+    @IBAction func onClearButtonPressed(sender: AnyObject) {
+        playSound()
+        //resets all variables
+        outputLbl.text = "0"
+        runningNum = ""
+        leftValStr = ""
+        rightValStr = ""
+        currentOperation = Operation.Empty
+        result = ""
+    }
     
     func processOperation (op: Operation) {
            playSound ()
