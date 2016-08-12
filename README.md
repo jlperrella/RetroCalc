@@ -1,3 +1,2 @@
 # RetroCalc
-Simple Calculator app built while learning swift via iOS 9 course on Udemy
-First self built project on GitHub, some commits and branches used only for testing
+This is a simple calculator app built while learning swift via iOS 9 course on Udemy.  The goals of the project were to build confidence with swift basi and stack views and to incorporate a splash screen.
