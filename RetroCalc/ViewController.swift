@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         case Subtract = "-"
         case Add = "+"
         case Empty = "Empty"
+        
+        
     }
     
     @IBOutlet weak var outputLbl: UILabel!
@@ -85,7 +87,7 @@ class ViewController: UIViewController {
         
         if (currentOperation != Operation.Empty) {
             
-            //fixes crash error if one of the values = nil
+            //fixes crash error if leftValStr or rightValStr = nil
             if runningNum != "" {
                 rightValStr = runningNum
                 runningNum = ""
